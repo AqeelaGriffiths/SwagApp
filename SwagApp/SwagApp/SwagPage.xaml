@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SwagApp.SwagPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Swag Items"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontAttributes="Italic" FontSize="Header"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Image Source=".swag1.jpeg" Background="white" Grid.Column="0" Grid.Row="0"/>
+                <Image Source=".swag2.jpeg" Background="white" Grid.Column="1" Grid.Row="1"/>
+                <Image Source=".swag3.jpeg" Background="white" Grid.Column="0" Grid.Row="2"/>
+                <Image Source=".swag4.jpeg" Background="white" Grid.Column="1" Grid.Row="0"/>
+                <Image Source=".swag5.jpeg" Background="white" Grid.Column="0" Grid.Row="1"/>
+                <Image Source=".swag6.jpeg" Background="white" Grid.Column="1" Grid.Row="2"/>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
